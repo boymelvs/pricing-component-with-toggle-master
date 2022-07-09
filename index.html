@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="this is a solution to the pricing component with toggle challenge on frontend mentor" />
+      <meta name="keyword" content="html, css, flexbox" />
+      <meta name="author" content="melvin" />
+
+      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+      <link rel="stylesheet" href="./styles/styles.css" />
+
+      <title>Frontend Mentor | [Challenge Name Here]</title>
+   </head>
+   <body>
+      <div class="container">
+         <main class="main_content">
+            <input type="checkbox" name="toggle" id="toggle_checkbox" />
+
+            <div class="title_toggle_container">
+               <h1 class="title">Our Pricing</h1>
+               <div class="toggle_container">
+                  <div class="annually">Annually</div>
+
+                  <label for="toggle_checkbox" id="toggle_label">
+                     <span id="toggle"> </span>
+                  </label>
+                  <div class="monthly">Monthly</div>
+               </div>
+            </div>
+
+            <div class="pricing_component_container">
+               <!-- /* basic */ -->
+               <div class="selection">
+                  <div class="basic card_container">
+                     <div class="card">
+                        <div class="basic_text">Basic</div>
+
+                        <div class="price basic_price">
+                           <span class="dollar_sign">$</span>
+                           <span class="monthly_price"> 19.99 </span>
+                           <span class="annually_price">199.99</span>
+                        </div>
+
+                        <div class="storage_size">500 GB Storage</div>
+                        <div class="users">2 Users Allowed</div>
+                        <div class="send_up_to">Send up to 3 GB</div>
+                     </div>
+
+                     <div class="btn_container">
+                        <input type="text" name="learn_more" class="learn_more" value="Learn More" />
+                     </div>
+                  </div>
+               </div>
+
+               <!-- /* professional */ -->
+               <div class="selection selected_card">
+                  <div class="professional card_container">
+                     <div class="card">
+                        <div class="basic_text">Professional</div>
+
+                        <div class="price professional_price">
+                           <span class="dollar_sign">$</span>
+                           <span class="monthly_price">24.99</span>
+                           <span class="annually_price">249.99</span>
+                        </div>
+
+                        <div class="storage_size">1 TB Storage</div>
+                        <div class="users">5 Users Allowed</div>
+                        <div class="send_up_to">Send up to 10 GB</div>
+                     </div>
+
+                     <div class="btn_container">
+                        <input type="text" name="learn_more" class="learn_more professional_btn" value="Learn More" />
+                     </div>
+                  </div>
+               </div>
+
+               <!-- /* master */ -->
+               <div class="selection">
+                  <div class="master card_container">
+                     <div class="card">
+                        <div class="basic_text">Master</div>
+
+                        <div class="price master_price">
+                           <span class="dollar_sign">$</span>
+                           <span class="monthly_price">39.99</span>
+                           <span class="annually_price">399.99</span>
+                        </div>
+
+                        <div class="storage_size">2 TB Storage</div>
+                        <div class="users">10 Users Allowed</div>
+                        <div class="send_up_to">Send up to 20 GB</div>
+                     </div>
+
+                     <div class="btn_container">
+                        <input type="text" name="learn_more" class="learn_more master_btn" value="Learn More" />
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </main>
+
+         <footer class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer noopener">Frontend Mentor</a>. Coded by
+            <a href="https://github.com/boymelvs" target="_blank" rel="noreferrer noopener">boymelvs</a>.
+         </footer>
+      </div>
+   </body>
+</html>
